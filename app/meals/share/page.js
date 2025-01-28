@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import SubmitformButton from "@/components/atoms/submit-form-btn";
-import ImagePicker from "@/components/meals/image-picker";
-import { shareMeal } from "@/lib/actions/meals";
-import { useFormState } from "react-dom";
-import classes from "./page.module.css";
+import SubmitformButton from '@/components/atoms/submit-form-btn';
+import ImagePicker from '@/components/meals/image-picker';
+import { shareMeal } from '@/lib/actions/meals';
+import { useFormState } from 'react-dom';
+import classes from './page.module.css';
 
 export default function ShareMealPage() {
   const [state, formAction, isPending] = useFormState(shareMeal, {

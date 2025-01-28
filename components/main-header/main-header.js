@@ -1,9 +1,9 @@
-import Link from "next/link";
-import Image from "next/image";
-import logoImg from "@/assets/logo.png";
-import NavLink from "@/components/atoms/nav-link";
-import MainHeaderBackground from "./main-header-background";
-import classes from "./main-header.module.css";
+import Link from 'next/link';
+import Image from 'next/image';
+import logoImg from '@/assets/logo.png';
+import NavLink from '@/components/atoms/nav-link';
+import MainHeaderBackground from './main-header-background';
+import classes from './main-header.module.css';
 
 export default function MainHeader() {
   return (
